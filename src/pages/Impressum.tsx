@@ -34,17 +34,17 @@ const Impressum = () => {
                 <div className="space-y-2 text-gray-700">
                   <div className="flex items-center space-x-2">
                     <Mail className="h-4 w-4 text-blue-600" />
-                    <p>E-Mail: https://tosun-baumaschinen.de</p>
+                    <p>E-Mail: info@azur-elektrotechnik.de</p>
                   </div>
-                  <p>Internet: tosun-baumaschinen.de</p>
+                  <p>Internet: azur-elektrotechnik.de</p>
                 </div>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Handelsregister</h3>
                 <div className="text-gray-700 space-y-1">
-                  <p>Registergericht: Amtsgericht Frankfurt am Main</p>
-                  <p>Registernummer: HRB 124951</p>
+                  <p>Registergericht: Amtsgericht Mainz</p>
+                  <p>Registernummer: HRB 50326</p>
                 </div>
               </div>
 
@@ -57,7 +57,7 @@ const Impressum = () => {
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Umsatzsteuer-ID</h3>
                 <p className="text-gray-700">
                   Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-                  DE545976064
+                  DE004021766
                 </p>
               </div>
 
