@@ -30,7 +30,7 @@ const InsolvencyPopup = ({ isOpen, onClose }: InsolvencyPopupProps) => {
               Herzlichen Dank für Ihr Vertrauen
             </p>
             <p className="text-orange-700 text-sm leading-relaxed">
-              Wir bedanken uns herzlich für Ihr Vertrauen und Ihre Unterstützung in den vergangenen Jahren. Leider müssen wir Ihnen mitteilen, dass über das Vermögen der To-Sun Bau GmbH das Insolvenzverfahren eröffnet wurde. Für alle weiteren Anliegen wenden Sie sich bitte an unseren Insolvenzverwalter.
+              Wir bedanken uns herzlich für Ihr Vertrauen und Ihre Unterstützung in den vergangenen Jahren. Leider müssen wir Ihnen mitteilen, dass über das Vermögen der AZUR Elektrotechnik GmbH das Insolvenzverfahren eröffnet wurde. Für alle weiteren Anliegen wenden Sie sich bitte an unseren Insolvenzverwalter.
             </p>
           </div>
           
