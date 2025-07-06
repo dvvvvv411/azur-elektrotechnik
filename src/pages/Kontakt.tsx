@@ -67,7 +67,7 @@ const Kontakt = () => {
                       </div>
                       <div className="bg-gray-50 p-4 rounded-lg text-center">
                         <Navigation className="h-6 w-6 text-blue-600 mx-auto mb-2" />
-                        <p className="text-sm font-medium text-gray-700">Frankfurt</p>
+                        <p className="text-sm font-medium text-gray-700">Mainz</p>
                         <p className="text-xs text-gray-600">Zentral gelegen</p>
                       </div>
                     </div>
