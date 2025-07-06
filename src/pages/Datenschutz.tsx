@@ -119,7 +119,7 @@ const Datenschutz = () => {
               <div className="bg-red-50 border border-red-200 rounded-lg p-4">
                 <h3 className="text-xl font-bold text-red-800 mb-2">Hinweis zur Insolvenz</h3>
                 <p className="text-red-700">
-                  Da sich das Unternehmen To-Sun Bau GmbH in einem Insolvenzverfahren befindet, können sich die 
+                  Da sich das Unternehmen AZUR Elektrotechnik GmbH in einem Insolvenzverfahren befindet, können sich die 
                   Verantwortlichkeiten für die Datenverarbeitung ändern. Bei Fragen zum Datenschutz wenden Sie sich 
                   bitte an die im Impressum angegebene Adresse.
                 </p>

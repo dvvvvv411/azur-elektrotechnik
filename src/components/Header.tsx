@@ -14,7 +14,7 @@ const Header = () => {
               className="text-blue-900 text-3xl font-bold font-playfair no-underline hover:text-blue-700 transition-all duration-300 tracking-wide"
               style={{ fontWeight: 800, letterSpacing: '0.02em' }}
             >
-              To-Sun Bau GmbH
+              AZUR Elektrotechnik GmbH
             </Link>
           </div>
           <nav className="hidden md:block">

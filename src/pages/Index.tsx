@@ -1,6 +1,10 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import { Building2, Hammer, Users, Award } from 'lucide-react';
+import { Building2, Zap, Users, Award } from 'lucide-react';
+import heroImage from '../assets/hero-elektrotechnik.jpg';
+import lwlImage from '../assets/lwl-technik.jpg';
+import netzwerkImage from '../assets/netzwerktechnik.jpg';
+import teamImage from '../assets/team-elektrotechnik.jpg';
 
 const Index = () => {
   return (
@@ -14,10 +18,10 @@ const Index = () => {
               <div className="space-y-8">
                 <div>
                   <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Willkommen bei<br /><span className="text-blue-700">To-Sun Bau GmbH</span>
+                    Willkommen bei<br /><span className="text-blue-700">AZUR Elektrotechnik GmbH</span>
                   </h1>
                   <p className="text-xl text-gray-600 leading-relaxed">
-                    Ihr kompetenter Partner für Hoch- und Tiefbauarbeiten aller Art in Frankfurt am Main und Umgebung.
+                    Ihr kompetenter Partner für elektronische Anlagen, LWL-Datentechnik und Netzwerktechnik in Mainz und Umgebung.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-4">
@@ -30,16 +34,16 @@ const Index = () => {
                     <span className="text-sm font-medium text-gray-700">Erfahrung</span>
                   </div>
                   <div className="flex items-center space-x-2 bg-white px-4 py-2 rounded-full shadow-sm border">
-                    <Hammer className="h-5 w-5 text-blue-600" />
-                    <span className="text-sm font-medium text-gray-700">Zuverlässigkeit</span>
+                    <Zap className="h-5 w-5 text-blue-600" />
+                    <span className="text-sm font-medium text-gray-700">Innovation</span>
                   </div>
                 </div>
               </div>
               <div className="relative">
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img 
-                    src="https://i.imgur.com/bdKer9v.jpeg" 
-                    alt="Modernes Bauwerk" 
+                    src={heroImage} 
+                    alt="Moderne Elektrotechnik Arbeit" 
                     className="w-full h-96 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent"></div>
@@ -50,7 +54,7 @@ const Index = () => {
                       <Building2 className="h-6 w-6 text-blue-600" />
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-900">Frankfurt a.M.</p>
+                      <p className="font-semibold text-gray-900">Mainz</p>
                       <p className="text-sm text-gray-600">Unser Standort</p>
                     </div>
                   </div>
@@ -68,44 +72,44 @@ const Index = () => {
                 Unsere Leistungen
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Wir führen Hoch- und Tiefbauarbeiten aller Art durch und stehen für Qualität, 
-                Zuverlässigkeit und fachgerechte Ausführung.
+                Wir erstellen elektronische Anlagen aller Art und führen alle dazugehörigen Arbeiten durch. 
+                Spezialisiert auf LWL-Datentechnik und Netzwerktechnik.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img 
-                  src="https://i.imgur.com/13fj2fB.jpeg" 
-                  alt="Hochbau" 
+                  src={lwlImage} 
+                  alt="LWL-Datentechnik" 
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-2">Hochbauarbeiten</h3>
+                  <h3 className="text-2xl font-bold mb-2">LWL-Datentechnik</h3>
                   <ul className="space-y-1 text-sm">
-                    <li>• Rohbauarbeiten</li>
-                    <li>• Maurerarbeiten</li>
-                    <li>• Sanierungen</li>
-                    <li>• Umbaumaßnahmen</li>
+                    <li>• Glasfaserinstallation</li>
+                    <li>• Spleißarbeiten</li>
+                    <li>• Messtechnik</li>
+                    <li>• Datenübertragung</li>
                   </ul>
                 </div>
               </div>
               
               <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img 
-                  src="https://i.imgur.com/izaOBW5.jpeg" 
-                  alt="Tiefbau" 
+                  src={netzwerkImage} 
+                  alt="Netzwerktechnik" 
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-2">Tiefbauarbeiten</h3>
+                  <h3 className="text-2xl font-bold mb-2">Netzwerktechnik</h3>
                   <ul className="space-y-1 text-sm">
-                    <li>• Erdarbeiten</li>
-                    <li>• Fundamentarbeiten</li>
-                    <li>• Kanalbauarbeiten</li>
-                    <li>• Straßenbauarbeiten</li>
+                    <li>• Netzwerkinstallation</li>
+                    <li>• Serverraumtechnik</li>
+                    <li>• Strukturierte Verkabelung</li>
+                    <li>• IT-Infrastruktur</li>
                   </ul>
                 </div>
               </div>
@@ -122,9 +126,9 @@ const Index = () => {
                   Unser Unternehmen
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Die To-Sun Bau GmbH ist ein etabliertes Bauunternehmen mit Sitz in Frankfurt am Main. 
-                  Wir führen Hoch- und Tiefbauarbeiten aller Art durch und stehen für Qualität, 
-                  Zuverlässigkeit und fachgerechte Ausführung.
+                  Die AZUR Elektrotechnik GmbH ist ein spezialisiertes Elektrotechnikunternehmen mit Sitz in Mainz. 
+                  Wir erstellen elektronische Anlagen aller Art und führen alle dazugehörigen Arbeiten durch, 
+                  insbesondere LWL-Datentechnik und Netzwerktechnik.
                 </p>
                 <div className="grid grid-cols-2 gap-6">
                   <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -133,14 +137,14 @@ const Index = () => {
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-sm">
                     <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
-                    <div className="text-gray-600">Projekte</div>
+                    <div className="text-gray-600">Installierte Anlagen</div>
                   </div>
                 </div>
               </div>
               <div className="relative">
                 <img 
-                  src="https://i.imgur.com/1RuhxOw.jpg" 
-                  alt="Bauunternehmen" 
+                  src={teamImage} 
+                  alt="Elektrotechnik Unternehmen" 
                   className="w-full h-96 object-cover rounded-xl shadow-lg"
                 />
               </div>
@@ -152,14 +156,14 @@ const Index = () => {
         <section className="py-20 bg-blue-700">
           <div className="container mx-auto px-4">
             <div className="text-center text-white">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-8">Standort Frankfurt</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-8">Standort Mainz</h2>
               <p className="text-xl mb-8 opacity-90">
-                Unser Firmensitz befindet sich in Frankfurt am Main
+                Unser Firmensitz befindet sich in Mainz
               </p>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 max-w-md mx-auto">
                 <div className="text-white">
-                  <p className="text-lg font-medium">Waldschmidtstr. 67</p>
-                  <p className="text-lg font-medium">D-60316 Frankfurt a. Main</p>
+                  <p className="text-lg font-medium">Drosselweg 1</p>
+                  <p className="text-lg font-medium">D-55122 Mainz</p>
                 </div>
               </div>
             </div>

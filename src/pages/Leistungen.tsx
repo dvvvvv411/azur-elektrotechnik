@@ -1,7 +1,10 @@
 
 import React from 'react';
 import Layout from '../components/Layout';
-import { Hammer, Building2, Wrench, Truck, HardHat, CheckCircle, Phone, Mail, Globe } from 'lucide-react';
+import { Zap, Building2, Wrench, Truck, HardHat, CheckCircle, Phone, Mail, Globe } from 'lucide-react';
+import elektronischeAnlagenImage from '../assets/elektronische-anlagen.jpg';
+import lwlTechnikImage from '../assets/lwl-technik.jpg';
+import netzwerktechnikImage from '../assets/netzwerktechnik.jpg';
 
 const Leistungen = () => {
   return (
@@ -16,13 +19,13 @@ const Leistungen = () => {
                 Unsere <span className="text-blue-700">Leistungen</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                Professionelle Hoch- und Tiefbauarbeiten aller Art. Von der Planung bis zur Fertigstellung 
+                Professionelle elektronische Anlagen und Netzwerktechnik aller Art. Von der Planung bis zur Installation 
                 stehen wir Ihnen als kompetenter Partner zur Seite.
               </p>
               <div className="relative overflow-hidden rounded-2xl shadow-2xl max-w-3xl mx-auto">
                 <img 
-                  src="https://i.imgur.com/OquGx7k.jpeg" 
-                  alt="Baustelle im Hochbau" 
+                  src={elektronischeAnlagenImage} 
+                  alt="Elektronische Anlagen Installation" 
                   className="w-full h-64 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent"></div>
@@ -35,101 +38,101 @@ const Leistungen = () => {
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-              {/* Hochbau */}
+              {/* LWL-Datentechnik */}
               <div className="bg-white border border-gray-200 shadow-lg rounded-xl overflow-hidden">
                 <div className="relative">
                   <img 
-                    src="https://i.imgur.com/13fj2fB.jpeg" 
-                    alt="Hochbau Arbeiten" 
+                    src={lwlTechnikImage} 
+                    alt="LWL-Datentechnik Arbeiten" 
                     className="w-full h-64 object-cover"
                   />
                   <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg">
                     <div className="flex items-center space-x-2">
-                      <Building2 className="h-5 w-5 text-blue-600" />
-                      <span className="font-semibold text-gray-800">Hochbau</span>
+                      <Zap className="h-5 w-5 text-blue-600" />
+                      <span className="font-semibold text-gray-800">LWL-Datentechnik</span>
                     </div>
                   </div>
                 </div>
                 <div className="p-8">
-                  <h2 className="text-2xl font-bold text-blue-800 mb-6">Hochbauarbeiten</h2>
+                  <h2 className="text-2xl font-bold text-blue-800 mb-6">LWL-Datentechnik</h2>
                   <p className="text-gray-600 mb-6 leading-relaxed">
-                    Umfassende Hochbauarbeiten von der Rohbauphase bis zur Fertigstellung. 
-                    Wir realisieren Ihre Bauvorhaben mit höchster Präzision und Qualität.
+                    Professionelle Glasfaserinstallation und LWL-Datentechnik für schnelle und zuverlässige 
+                    Datenübertragung. Wir realisieren Ihre Projekte mit höchster Präzision und Qualität.
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Rohbauarbeiten</span>
+                      <span className="text-gray-700">Glasfaserinstallation</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Maurerarbeiten</span>
+                      <span className="text-gray-700">Spleißarbeiten</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Betonarbeiten</span>
+                      <span className="text-gray-700">LWL-Messtechnik</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Sanierungsarbeiten</span>
+                      <span className="text-gray-700">Dämpfungsmessung</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Umbaumaßnahmen</span>
+                      <span className="text-gray-700">Datenübertragung</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Renovierungen</span>
+                      <span className="text-gray-700">Kabelverlegung</span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Tiefbau */}
+              {/* Netzwerktechnik */}
               <div className="bg-white border border-gray-200 shadow-lg rounded-xl overflow-hidden">
                 <div className="relative">
                   <img 
-                    src="https://i.imgur.com/izaOBW5.jpeg" 
-                    alt="Tiefbau Arbeiten" 
+                    src={netzwerktechnikImage} 
+                    alt="Netzwerktechnik Arbeiten" 
                     className="w-full h-64 object-cover"
                   />
                   <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg">
                     <div className="flex items-center space-x-2">
-                      <Truck className="h-5 w-5 text-blue-600" />
-                      <span className="font-semibold text-gray-800">Tiefbau</span>
+                      <Building2 className="h-5 w-5 text-blue-600" />
+                      <span className="font-semibold text-gray-800">Netzwerktechnik</span>
                     </div>
                   </div>
                 </div>
                 <div className="p-8">
-                  <h2 className="text-2xl font-bold text-blue-800 mb-6">Tiefbauarbeiten</h2>
+                  <h2 className="text-2xl font-bold text-blue-800 mb-6">Netzwerktechnik</h2>
                   <p className="text-gray-600 mb-6 leading-relaxed">
-                    Professionelle Tiefbauarbeiten für Infrastruktur und Fundamente. 
-                    Von Erdarbeiten bis hin zu komplexen Drainage-Systemen.
+                    Umfassende Netzwerkinstallationen und IT-Infrastruktur für Unternehmen. 
+                    Von strukturierter Verkabelung bis hin zu komplexen Serverraumlösungen.
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Erdarbeiten</span>
+                      <span className="text-gray-700">Netzwerkinstallation</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Fundamentarbeiten</span>
+                      <span className="text-gray-700">Strukturierte Verkabelung</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Kanalbauarbeiten</span>
+                      <span className="text-gray-700">Serverraumtechnik</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Straßenbauarbeiten</span>
+                      <span className="text-gray-700">IT-Infrastruktur</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Pflasterarbeiten</span>
+                      <span className="text-gray-700">Switching & Routing</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-700">Drainage-Systeme</span>
+                      <span className="text-gray-700">WLAN-Systeme</span>
                     </div>
                   </div>
                 </div>
@@ -143,7 +146,7 @@ const Leistungen = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Warum To-Sun Bau wählen?
+                Warum AZUR Elektrotechnik wählen?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Unser Engagement für Qualität und Zuverlässigkeit macht den Unterschied
@@ -158,7 +161,7 @@ const Leistungen = () => {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Fachkompetenz</h3>
                 <p className="text-gray-600 leading-relaxed">
                   Unser erfahrenes Team verfügt über tiefgreifende Kenntnisse in allen 
-                  Bereichen des Hoch- und Tiefbaus.
+                  Bereichen der Elektrotechnik und Netzwerktechnik.
                 </p>
               </div>
 
@@ -168,7 +171,7 @@ const Leistungen = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Moderne Technik</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Einsatz modernster Baumaschinen und -technik für effiziente und 
+                  Einsatz modernster Messtechnik und Elektroinstallationsgeräte für effiziente und 
                   präzise Arbeitsausführung.
                 </p>
               </div>
@@ -180,7 +183,7 @@ const Leistungen = () => {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Qualitätsgarantie</h3>
                 <p className="text-gray-600 leading-relaxed">
                   Wir garantieren höchste Qualitätsstandards und arbeiten nach 
-                  aktuellen Normen und Vorschriften.
+                  aktuellen VDE-Normen und technischen Vorschriften.
                 </p>
               </div>
             </div>
@@ -193,8 +196,8 @@ const Leistungen = () => {
             <div className="max-w-4xl mx-auto text-center text-white">
               <h2 className="text-3xl lg:text-4xl font-bold mb-8">Qualität und Zuverlässigkeit</h2>
               <p className="text-xl mb-8 opacity-90 leading-relaxed">
-                Bei allen unseren Projekten stehen Qualität, fachgerechte Ausführung und Termintreue 
-                im Vordergrund. Wir arbeiten nach den neuesten Standards und Vorschriften der Baubranche.
+                Bei allen unseren Projekten stehen Qualität, fachgerechte Installation und Termintreue 
+                im Vordergrund. Wir arbeiten nach den neuesten VDE-Normen und Standards der Elektrotechnikbranche.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
@@ -206,8 +209,8 @@ const Leistungen = () => {
                   <div className="text-blue-100">Jahre Erfahrung</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                  <div className="text-3xl font-bold text-white mb-2">24/7</div>
-                  <div className="text-blue-100">Projektsupport</div>
+                  <div className="text-3xl font-bold text-white mb-2">50+</div>
+                  <div className="text-blue-100">Installierte Anlagen</div>
                 </div>
               </div>
             </div>
@@ -221,7 +224,7 @@ const Leistungen = () => {
               <div className="bg-orange-100 border border-orange-200 rounded-xl p-8">
                 <h3 className="text-2xl font-bold text-orange-800 mb-6">Herzlichen Dank für Ihr Vertrauen</h3>
                 <p className="text-orange-700 text-lg leading-relaxed mb-6">
-                  Wir bedanken uns herzlich für Ihr Vertrauen und Ihre Unterstützung in den vergangenen Jahren. Leider müssen wir Ihnen mitteilen, dass über das Vermögen der To-Sun Bau GmbH das Insolvenzverfahren eröffnet wurde. Für alle weiteren Anliegen wenden Sie sich bitte an unseren Insolvenzverwalter.
+                  Wir bedanken uns herzlich für Ihr Vertrauen und Ihre Unterstützung in den vergangenen Jahren. Leider müssen wir Ihnen mitteilen, dass über das Vermögen der AZUR Elektrotechnik GmbH das Insolvenzverfahren eröffnet wurde. Für alle weiteren Anliegen wenden Sie sich bitte an unseren Insolvenzverwalter.
                 </p>
                 
                 <div className="bg-white/50 p-6 rounded-lg">

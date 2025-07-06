@@ -13,10 +13,10 @@ const Kontakt = () => {
           <div className="container mx-auto px-4 relative">
             <div className="text-center max-w-4xl mx-auto">
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                <span className="text-blue-700">Kontakt</span> & Standort
+                <span className="text-blue-700">AZUR Elektrotechnik GmbH</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                Nehmen Sie Kontakt mit uns auf. Unser Standort in Frankfurt am Main ist 
+                Nehmen Sie Kontakt mit uns auf. Unser Standort in Mainz ist 
                 zentral gelegen und gut erreichbar.
               </p>
             </div>
@@ -39,13 +39,13 @@ const Kontakt = () => {
                   
                   <div className="space-y-6">
                     <div>
-                      <h3 className="text-lg font-bold text-gray-800 mb-3">To-Sun Bau GmbH</h3>
+                      <h3 className="text-lg font-bold text-gray-800 mb-3">AZUR Elektrotechnik GmbH</h3>
                       <div className="bg-gray-50 p-6 border border-gray-200 rounded-lg">
                         <div className="flex items-start space-x-3">
                           <MapPin className="h-5 w-5 text-blue-600 mt-1 flex-shrink-0" />
                           <div>
-                            <p className="text-gray-800 font-medium">Waldschmidtstr. 67</p>
-                            <p className="text-gray-800 font-medium">D-60316 Frankfurt a. Main</p>
+                            <p className="text-gray-800 font-medium">Drosselweg 1</p>
+                            <p className="text-gray-800 font-medium">D-55122 Mainz</p>
                           </div>
                         </div>
                       </div>
@@ -54,8 +54,8 @@ const Kontakt = () => {
                     <div className="bg-blue-50 p-6 border border-blue-200 rounded-lg">
                       <h4 className="text-lg font-bold text-blue-800 mb-3">Tätigkeitsbereich</h4>
                       <p className="text-blue-700 text-base leading-relaxed">
-                        Ausführung von Hoch- und Tiefbauarbeiten aller Art. Unser erfahrenes Team 
-                        steht für Qualität, Zuverlässigkeit und fachgerechte Ausführung.
+                        Erstellung elektronischer Anlagen und alle dazugehörigen Arbeiten. Unser erfahrenes Team 
+                        steht für Qualität, Zuverlässigkeit und fachgerechte Installation von LWL-Datentechnik und Netzwerktechnik.
                       </p>
                     </div>
 
@@ -89,11 +89,11 @@ const Kontakt = () => {
                     <div className="bg-gradient-to-br from-blue-100 to-blue-200 p-8 rounded-xl h-64 flex items-center justify-center">
                       <div className="text-center text-blue-800">
                         <Building2 className="h-12 w-12 mx-auto mb-4" />
-                        <p className="text-lg font-bold mb-2">Frankfurt am Main</p>
-                        <p className="text-base">Waldschmidtstraße 67</p>
-                        <p className="text-base">60316 Frankfurt</p>
+                        <p className="text-lg font-bold mb-2">Mainz</p>
+                        <p className="text-base">Drosselweg 1</p>
+                        <p className="text-base">55122 Mainz</p>
                         <div className="mt-4 p-3 bg-white/80 rounded-lg inline-block">
-                          <p className="text-sm text-blue-700">Zentral gelegen in Frankfurt</p>
+                          <p className="text-sm text-blue-700">Zentral gelegen in Mainz</p>
                         </div>
                       </div>
                     </div>
@@ -102,7 +102,7 @@ const Kontakt = () => {
                   <div className="mt-6 bg-blue-50 p-4 rounded-lg">
                     <h4 className="font-bold text-blue-800 mb-2">Erreichbarkeit</h4>
                     <p className="text-blue-700 text-sm">
-                      Unser Firmensitz befindet sich in einer zentral gelegenen Lage in Frankfurt am Main 
+                      Unser Firmensitz befindet sich in einer zentral gelegenen Lage in Mainz 
                       und ist gut mit öffentlichen Verkehrsmitteln sowie dem Auto erreichbar.
                     </p>
                   </div>
@@ -119,7 +119,7 @@ const Kontakt = () => {
               <div className="bg-orange-100 border border-orange-200 rounded-xl p-8">
                 <h3 className="text-2xl font-bold text-orange-800 mb-6">Herzlichen Dank für Ihr Vertrauen</h3>
                 <p className="text-orange-700 text-lg leading-relaxed mb-6">
-                  Wir bedanken uns herzlich für Ihr Vertrauen und Ihre Unterstützung in den vergangenen Jahren. Leider müssen wir Ihnen mitteilen, dass über das Vermögen der To-Sun Bau GmbH das Insolvenzverfahren eröffnet wurde. Für alle weiteren Anliegen wenden Sie sich bitte an unseren Insolvenzverwalter.
+                  Wir bedanken uns herzlich für Ihr Vertrauen und Ihre Unterstützung in den vergangenen Jahren. Leider müssen wir Ihnen mitteilen, dass über das Vermögen der AZUR Elektrotechnik GmbH das Insolvenzverfahren eröffnet wurde. Für alle weiteren Anliegen wenden Sie sich bitte an unseren Insolvenzverwalter.
                 </p>
                 
                 <div className="bg-white/50 p-6 rounded-lg">

@@ -9,11 +9,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="mb-6">
-              <h3 className="text-xl font-bold">To-Sun Bau GmbH</h3>
+              <h3 className="text-xl font-bold">AZUR Elektrotechnik GmbH</h3>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">
-              Ihr zuverlässiger Partner für Hoch- und Tiefbauarbeiten aller Art.
-              Qualität und Termintreue stehen bei uns an erster Stelle.
+              Ihr zuverlässiger Partner für elektronische Anlagen und Netzwerktechnik.
+              LWL-Daten, Netzwerktechnik und fachgerechte Installation stehen bei uns an erster Stelle.
             </p>
           </div>
           
@@ -23,8 +23,8 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-blue-400 flex-shrink-0" />
                 <div className="text-gray-300 text-sm">
-                  <p>Waldschmidtstr. 67</p>
-                  <p>D-60316 Frankfurt a. Main</p>
+                  <p>Drosselweg 1</p>
+                  <p>D-55122 Mainz</p>
                 </div>
               </div>
             </div>
@@ -33,11 +33,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-6">Leistungen</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li>• Hochbauarbeiten</li>
-              <li>• Tiefbauarbeiten</li>
-              <li>• Rohbauarbeiten</li>
-              <li>• Sanierungen</li>
-              <li>• Umbaumaßnahmen</li>
+              <li>• Elektronische Anlagen</li>
+              <li>• LWL-Datentechnik</li>
+              <li>• Netzwerktechnik</li>
+              <li>• Kabelinstallationen</li>
+              <li>• Systemintegration</li>
             </ul>
           </div>
         </div>
@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
               <p className="text-center text-gray-400 text-sm">
-                © 2025 To-Sun Bau GmbH. Alle Rechte vorbehalten.
+                © 2025 AZUR Elektrotechnik GmbH. Alle Rechte vorbehalten.
               </p>
               <div className="flex space-x-4 text-sm">
                 <Link 

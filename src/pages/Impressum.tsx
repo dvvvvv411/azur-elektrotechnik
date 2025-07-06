@@ -18,12 +18,12 @@ const Impressum = () => {
                   Angaben gemäß § 5 TMG
                 </h2>
                 <div className="space-y-2 text-gray-700">
-                  <p className="text-lg font-semibold">To-Sun Bau GmbH</p>
+                  <p className="text-lg font-semibold">AZUR Elektrotechnik GmbH</p>
                   <div className="flex items-start space-x-2">
                     <MapPin className="h-4 w-4 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
-                      <p>Waldschmidtstr. 67</p>
-                      <p>60316 Frankfurt a. Main</p>
+                      <p>Drosselweg 1</p>
+                      <p>55122 Mainz</p>
                     </div>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ const Impressum = () => {
               <div className="bg-red-50 border border-red-200 rounded-lg p-4">
                 <h3 className="text-xl font-bold text-red-800 mb-2">Hinweis zur Insolvenz</h3>
                 <p className="text-red-700">
-                  Das Unternehmen To-Sun Bau GmbH befindet sich derzeit in einem Insolvenzverfahren. 
+                  Das Unternehmen AZUR Elektrotechnik GmbH befindet sich derzeit in einem Insolvenzverfahren. 
                   Alle Angaben auf dieser Website dienen ausschließlich Informationszwecken.
                 </p>
               </div>
